@@ -1,13 +1,13 @@
 # Utrack
 
-Background terminal position trackin for Ubuntu Touch devices.
+Background terminal position tracking for Ubuntu Touch devices.
 
 ## Credits
 - Thanks to gpx-py : https://github.com/tkrajina/gpxpy
 
 ## features
 - Record into a gpx file your trip into Download folder,
-- Auto-import into activitytracker the trip,
+- Auto-import trip into activitytracker,
 - Realtime recording of your position into Phonetrack https://apps.nextcloud.com/apps/phonetrack
 
 ## version
@@ -24,8 +24,8 @@ Background terminal position trackin for Ubuntu Touch devices.
 - 0.1 intial release
 
 ## Requierments
-- Depending of the Ubuntu Touch version and AppArmor security, you might need to run this app in an iperspace. See https://open-store.io/app/iperspace.emanuelesorce Currently RC and Stable requires this tool.
-- Terminal app has to be allow to run in background with the app ubuntu tweak. 
+- Depending of the Ubuntu Touch version and AppArmor security, you might need to run this app into an iperspace. See https://open-store.io/app/iperspace.emanuelesorce Currently RC and Stable requires this tool.
+- Terminal app has to be allowed to run in background with the app ubuntu tweak tool https://open-store.io/app/ut-tweak-tool.sverzegnassi. 
 
 
 ## Howto use it
