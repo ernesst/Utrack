@@ -1,0 +1,14 @@
+{
+    "name": "utrack",
+    "description": "Background terminal position tracking",
+    "title": "Utrack",
+    "hooks": {
+        "utrack": {
+            "apparmor": "utrack.apparmor",
+            "desktop":  "utrack.desktop"
+        }
+    },
+    "version": "0.3",
+    "maintainer": "Ernes t <ernesst@posteo.net>",
+    "framework" : "ubuntu-sdk-16.04"
+}
