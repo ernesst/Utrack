@@ -2,6 +2,9 @@
 
 Background terminal position tracking for Ubuntu Touch devices.
 
+## Download
+[![OpenStore](https://open-store.io/badges/en_US.png)](https://open-store.io/app/utrack)
+
 ## Credits
 - Thanks to gpx-py : https://github.com/tkrajina/gpxpy
 
