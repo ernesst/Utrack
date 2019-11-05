@@ -1,11 +1,10 @@
 {
     "name": "utrack",
-    "description": "Background terminal position tracking",
+    "description": "Background terminal activity tracking",
     "title": "Utrack",
     "hooks": {
         "utrack": {
-            "apparmor": "utrack.apparmor",
-            "desktop":  "utrack.desktop"
+            "apparmor": "utrack.apparmor"
         }
     },
     "version": "0.3",
