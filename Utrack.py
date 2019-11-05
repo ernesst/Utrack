@@ -163,7 +163,7 @@ def read_gps(p):
     ELEVATION = str("")
     try:
         fn = temp_file
-        words = ['latitude', 'longtide','elevation','accuracy']
+        words = ['latitude', 'longtide','elevation','accuracy','stop tracking']
         for hit_word, hit_sentence in watch(fn, words):
             line = hit_sentence
             if re.search("^latitude", line):
@@ -201,6 +201,12 @@ def read_gps(p):
                     leave(gpx)
                 except:
                     pass
+            if re.search("stop tracking", line):
+                file1 = open(GPS_LOG,"a")
+                file1.write("restart test_gps\n")
+                file1.close()
+                p.kill()
+                p = subprocess.Popen(["/usr/bin/sudo","/usr/bin/test_gps"], shell=False, stdout=log, stderr=log)
             if re.search("elevation", line):
                 elevation_T = line.split()
                 try :
